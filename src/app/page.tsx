@@ -4,6 +4,7 @@ import ClientPage from "./client/page";
 import HeroPage from "./hero/page";
 import CommunityPage from "./community/page";
 import UnlockPage from "./unlock/page";
+import CalendarPage from "./calendar/page";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CommunityPage />
       <UnlockPage />
       <AchievementPage />
+      <CalendarPage />
     </div>
   );
 }
