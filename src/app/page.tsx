@@ -6,6 +6,7 @@ import CommunityPage from "./community/page";
 import UnlockPage from "./unlock/page";
 import CalendarPage from "./calendar/page";
 import CustomerPage from "./customer/page";
+import CommunityUpdatePage from "./community-update/page";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <AchievementPage />
       <CalendarPage />
       <CustomerPage />
+      <CommunityUpdatePage />
     </div>
   );
 }
