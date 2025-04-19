@@ -1,17 +1,19 @@
-import Clients from "@/components/Clients";
-import Community from "@/components/Community";
-import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
-import Unlock from "@/components/Unlock";
+import AchievementPage from "./achievement/page";
+import ClientPage from "./client/page";
+import HeroPage from "./hero/page";
+import CommunityPage from "./community/page";
+import UnlockPage from "./unlock/page";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <HeroSection />
-      <Clients />
-      <Community />
-      <Unlock />
+      <HeroPage />
+      <ClientPage />
+      <CommunityPage />
+      <UnlockPage />
+      <AchievementPage />
     </div>
   );
 }
