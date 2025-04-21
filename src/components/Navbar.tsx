@@ -9,7 +9,7 @@ const Navbar = () => {
           <img src="/Logo.png" alt="logo" />
         </div>
         <div className="flex items-center md:gap-5">
-          <ul className="flex items-center gap-1 text-xs text-black md:text-lg md:gap-5 ">
+          <ul className="flex items-center gap-1 text-[8px] text-black md:text-lg md:gap-5 ">
             <li className="hover:cursor-pointer">
               <a href="">Home</a>
             </li>
