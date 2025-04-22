@@ -26,8 +26,10 @@ const Navbar = () => {
               <a href="#pricing">Pricing</a>
             </li>
           </ul>
-          <Button className="bg-[#4CAF4F] p-1 text-white rounded hover:cursor-pointer">
-            <a href="#register">Register Now</a>
+          <Button className="bg-[#4CAF4F] text-white rounded hover:cursor-pointer">
+            <a href="#register">
+              Register Now <span>→</span>
+            </a>
           </Button>
         </div>
       </div>
