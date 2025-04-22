@@ -26,13 +26,15 @@ const Unlock: React.FC<IUnlockProps> = (props) => {
         </div>
         <div>
           <div className="flex items-center justify-start -ml-6 md:hidden">
-            <Button className="bg-[#4CAF4F] text-white scale-50">
+            <Button className="bg-[#4CAF4F] text-white scale-50 hover:cursor-pointer">
               Learn More
             </Button>
           </div>
 
           <div className="hidden md:block">
-            <Button className="bg-[#4CAF4F] text-white">Learn More</Button>
+            <Button className="bg-[#4CAF4F] text-white hover:cursor-pointer">
+              Learn More
+            </Button>
           </div>
         </div>
       </div>

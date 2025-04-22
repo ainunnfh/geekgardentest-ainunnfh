@@ -15,7 +15,9 @@ const HeroSection = () => {
               Where to grow your business as a photographer: site or social
               media?
             </p>
-            <Button className="bg-[#4CAF4F] text-white">Register</Button>
+            <Button className="bg-[#4CAF4F] text-white hover:cursor-pointer">
+              Register
+            </Button>
           </div>
 
           <div className="w-38 flex justify-end">
