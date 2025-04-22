@@ -17,10 +17,22 @@ const FooterPage = () => {
         <p className="text-xs md:text-base">Copyright © 2020 Landify UI Kit.</p>
 
         <div className="flex justify-around mt-2 w-full">
-          <FaInstagram />
-          <FaBasketballBall />
-          <FaTwitter />
-          <FaYoutube />
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+            <FaInstagram />
+          </a>
+          <a
+            href="https://www.basketball.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaBasketballBall />
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+            <FaTwitter />
+          </a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+            <FaYoutube />
+          </a>
         </div>
       </div>
 
